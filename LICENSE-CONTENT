@@ -1,0 +1,80 @@
+Content License — Creative Commons Attribution-ShareAlike 4.0 International
+(CC BY-SA 4.0)
+
+Copyright (c) 2026 Gavin D'souza
+
+This license applies to the CONTENT in this repository, as distinct from the
+software licensed under the MIT License in LICENSE.
+
+Covered (the "Content")
+-----------------------
+  * js/data/ — the learning material: dialogues, reading texts, conjugation
+    and case tables, email and speaking prompts, listening, reading and form
+    exercises, warm-up questions, and study schedules
+  * in the word lists (words.js, words-a2.js): the German articles, English
+    translations, and example sentences — but NOT the selection of which
+    words appear, which derives from a Goethe-Institut publication (see
+    "Third-party material" below)
+  * the human-readable prose rendered by the app: exercise sentences,
+    translations, explanations, exam-style texts, level descriptions, and UI
+    copy such as overview and instructions
+  * the icons/ and og.png/favicon.ico artwork, as project identity assets
+    (the "Deutsch Sprint" name itself is a trademark and is not licensed;
+    see NOTICE)
+
+Not covered
+-----------
+  * application code, markup structure, and styles — see LICENSE (MIT)
+  * the vocabulary selection in the word lists — see below
+  * third-party names and trademarks — see NOTICE
+
+Third-party material
+--------------------
+The word lists are curated study sets built against the Goethe-Institut's
+official vocabulary lists — the Goethe-Zertifikat A1 "Start Deutsch 1"
+Wortliste at
+https://www.goethe.de/de/spr/kup/prf/prf/sd1/ue9.html
+and the corresponding A2 list. Which words appear, and how they are grouped,
+therefore follows a Goethe-Institut publication rather than this project.
+
+That underlying list is the Goethe-Institut's, not the licensor's. This
+repository cannot and does not grant CC BY-SA rights over it, and nothing
+here grants commercial reuse of it. If you need the vocabulary set itself,
+obtain it from the Goethe-Institut under their terms. The original
+translations and example sentences in those files are covered by this license
+as normal — only the selection is carved out.
+
+You are free to
+---------------
+  Share  — copy and redistribute the Content in any medium or format
+  Adapt  — remix, transform, and build upon the Content for any purpose,
+           even commercially
+
+Under the following terms
+-------------------------
+  Attribution — You must give appropriate credit to Gavin D'souza and
+    "Deutsch Sprint" (https://de.gavv.in/), provide a link to this license,
+    and indicate if changes were made. You may do so in any reasonable
+    manner, but not in any way that suggests the licensor endorses you or
+    your use.
+  ShareAlike — If you remix, transform, or build upon the Content, you must
+    distribute your contributions under the same license as the original.
+  No additional restrictions — You may not apply legal terms or technological
+    measures that legally restrict others from doing anything the license
+    permits.
+
+Suggested attribution line
+--------------------------
+  Learning content from "Deutsch Sprint" by Gavin D'souza,
+  licensed under CC BY-SA 4.0 — changes were made.
+  https://de.gavv.in/
+
+No warranties are given. The license may not give you all of the permissions
+necessary for your intended use.
+
+Full legal text
+---------------
+The binding legal code is the CC BY-SA 4.0 legalcode at
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
+A human-readable summary is at
+https://creativecommons.org/licenses/by-sa/4.0/

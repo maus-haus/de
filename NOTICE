@@ -1,0 +1,85 @@
+NOTICE
+
+Deutsch Sprint — https://de.gavv.in/
+Copyright (c) 2026 Gavin D'souza
+
+This repository is dual-licensed by file type:
+
+  Code     MIT License          — see LICENSE
+  Content  CC BY-SA 4.0         — see LICENSE-CONTENT
+
+Trademarks
+----------
+"Goethe", "Goethe-Zertifikat", "Start Deutsch", "telc", "ÖSD" and other exam
+and certification names referenced by this project are trademarks of their
+respective owners, including the Goethe-Institut e.V.
+
+They are used here in a descriptive, nominative sense only, to say which exam
+the exercises are modelled on. This project is unofficial and is not
+affiliated with, endorsed by, sponsored by, or certified by the
+Goethe-Institut or any other examining body.
+
+Neither license in this repository grants any right to use those trademarks,
+logos, or official exam materials. Do not present a fork as an official or
+approved study resource for any certification.
+
+Brand identity
+--------------
+The "Deutsch Sprint" name, logo, and app icon identify this project and its
+original maintainer. The CC BY-SA 4.0 grant over the artwork supports reuse
+and adaptation of the assets; it does not grant permission to use the name or
+marks in a way that implies your fork is this project or that the original
+author endorses it. A fork must be renamed or clearly marked as a derivative.
+
+Exam content provenance
+-----------------------
+Exercise formats (reading, listening, writing, speaking) follow the publicly
+documented structure of the Goethe-Zertifikat A1/A2 exams. Exam task types
+are modelled on that structure; the sentences and answers inside them are
+not.
+
+The vocabulary is a different matter and is disclosed plainly: the word list
+in js/data/words.js was built against the official Goethe-Zertifikat A1
+"Start Deutsch 1" Wortliste published by the Goethe-Institut, and the A2 list
+in js/data/words-a2.js was built the same way against the A2 vocabulary. The
+selection of which words appear, and its grouping into categories, therefore
+follows a Goethe-Institut publication. The German articles, English
+translations, and example sentences attached to each word are original to
+this project. The app states this itself in its vocabulary footer.
+
+Because of that derivation, the CC BY-SA 4.0 grant in LICENSE-CONTENT covers
+the original translations and example sentences but does not extend to the
+vocabulary selection itself. This repository has no standing to license the
+Goethe-Institut's list, and it does not grant commercial reuse of it. Anyone
+who needs the underlying word list should obtain it from the Goethe-Institut
+under their terms.
+
+Everything else under js/data/ — dialogues, reading texts, form and speaking
+prompts, warm-up questions, schedules — was written for this project. Much of
+it, and the bulk of later A2/B1 copy, was drafted with AI assistance. This is
+the maintainer's best understanding of provenance, not a guarantee: model-
+assisted drafting can reproduce phrasing nobody intended to use. If you
+believe something here reproduces or closely paraphrases a source it should
+not, open an issue naming the file and the source; it will be rewritten,
+credited, or removed promptly, with the correction visible in history.
+
+Third-party components
+----------------------
+No third-party libraries, fonts, or datasets are bundled. The app is plain
+HTML, CSS, and JavaScript with no build step and no runtime dependencies.
+
+One third-party request is made at runtime: a cookieless page-view counter
+(GoatCounter) is loaded from gc.zgo.at and reports to a self-hosted endpoint,
+scoped to a single aggregate path. It sets no cookies, stores no personal
+data, and performs no cross-site tracking. Fork authors who do not want it can
+delete the script tag at the end of index.html — nothing depends on it.
+
+All user state — flashcard progress, quiz scores, practice counts, schedule
+checkmarks, self-intro fields — is held in localStorage on the user's own
+device and never leaves the browser. The service worker cache is likewise
+local. Only anonymous aggregate page views are transmitted.
+
+Contributions
+-------------
+Unless stated otherwise, contributions are accepted under the same split:
+code under MIT, learning content under CC BY-SA 4.0.
